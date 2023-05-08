@@ -1,0 +1,109 @@
+body{
+    background-image: url(bg9.jpg);
+   /* height: 100vh; */
+   /* background-repeat: no-repeat; */
+}
+       @keyframes xyz{
+       0%{
+           width: 0;
+       }
+       /* 60%{
+           width: 40vw; */
+       100%{
+           width: 100vw;
+       }
+   }
+.box1{
+   position: relative;
+   margin: 0;
+   /* background-color: aqua; */
+   /* display: inline-block; */
+   height: 20vh;
+   /* padding-top: 50px; */
+   background-image: url(bg2.jpeg);
+   /* background-attachment: scroll; */
+   border-color: black;
+   text-align: center;
+   font-size: xx-large;
+   font-weight: bolder;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-transform: uppercase;
+}
+.w{
+   animation: xyz 5s ease-out 1;}
+
+.box2{
+   position: fixed;
+   text-align: center;
+   text-decoration: none;
+   margin-top: 50px;
+   position: sticky;
+   /* background-color: aquamarine;  */
+   height: 4vh;
+   width: 80vh;
+   display: grid;
+   grid-row-gap: 9px;
+   grid-column: 9px;
+   grid-gap: 9px 9px;
+   grid-template-columns: auto auto auto auto;
+}
+.box2 a{
+   text-decoration: none;
+}
+
+.item{
+   text-decoration-style: solid;
+   font-size: large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /* background-image: url(bg1.jpeg); */
+   background-color: gold;
+   /* text-decoration: aqua; */
+   border-radius: 30px;
+   
+}
+
+.box3{
+   position: fixed;
+   margin-top: 20px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   /* background-image: url(bg9.jpg);
+   background-repeat: no-repeat; */
+   height: 100vh;
+   width: 100vw;
+}
+img{
+   height: 30vh;
+   width: auto;
+}
+
+.box4{
+   position: sticky;
+   background-color: darkcyan;
+   height: 20vh;
+   width: 100vw;
+   margin: 0%;
+   padding: 0%;
+}
+.me{
+   text-align: center;
+   font-weight: 800;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+   text-align: left;
+   font-size:large ;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+   position: sticky;
+   font-size: small;
+   width: 100%;
+   display: block;
+   background-color: aqua;
+   text-align: center;
+   font-family: 'Asul', sans-serif;
+}

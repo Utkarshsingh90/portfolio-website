@@ -1,0 +1,19 @@
+body{
+    background-color: darkgrey;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+form{
+    font-size: large;
+    font-weight: bold;
+}
+.box{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: x-large;}

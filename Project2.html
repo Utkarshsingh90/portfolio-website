@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styleproject2.css">
+</head>
+
+<body>
+    <h2>Enquiry Form</h2>
+    <form>
+        <fieldset>
+            Name:
+            <input type="text" name="names" placeholder="please enter your name" required=""/>
+            <br/>
+            <br/>
+            Roll No.: 
+            <input type="text" name="Rollno" placeholder="enter your roll no" required=""/>
+            <br/>
+            <br/>
+             Date  of Birth :
+            <input type="date" name="date of birth" required=""/>
+            <br/>
+            <br/>
+            Contact No.: 
+            <input type="number" name="Contact Number" placeholder="Contact Number" required=""/>
+            <br/>
+            <br/>
+            E-mail:
+            <input type="email" name="E-mail" placeholder="Write your E-mail" required=""/>
+            <br/>
+            <br/>
+            Country:
+            <input type="radio" name="country" value="India" />India 
+            <input type="radio" name="country" value="USA" /> USA6
+            <input type="radio" name="country" value="Nepal" />Nepal
+            <input type="radio" name="country" value="Singapore" />Singapore 
+            <input type="radio" name="country" value="China" /> China 
+            <input type="radio" name="country" value="Nepal" />Nepal
+            <input type="radio" name="country" value="Russia" />Russia 
+            <input type="radio" name="country" value="Japan" />Japan 
+            <input type="radio" name="country" value="Other" />Other
+            <br/>
+            (specify the other *)
+            <br/>
+           Others:
+           <input type="text" name="Othercountry" placeholder="Enter your counrty"/>
+           <br/>
+           <br/>
+        
+
+             Address:
+            <textarea placeholder="Address"></textarea>
+            <br/> <br/>
+            Age:
+            <input type="number" name="Age" min="18" max="25" placeholder="Age"/>
+            <br/>
+            <br/>
+            Branch:
+            <select>
+               <option>"Please choose your Branch"</option>
+               <option>Mechanical</option>
+               <option>Electrical</option>
+               <option>CSE</option>
+               <option>Civil</option>
+               <option>Metalurgy</option>
+               <option>Chemical</option>
+               <option>Others></option>
+            </select> 
+            <br/>
+             (specify the other *)
+             <br/>
+            Others:
+            <input type="text" name="OtherBranch" placeholder="write your branch name"/>
+            <br/>
+            <br/>
+            Gender:
+            <input type="checkbox" name="gender" value="male" />Male 
+            <input type="radio" name="gender" value="Female" /> Female 
+            <input type="radio" name="gender" value="Others" />others
+            <br/>
+            <br/>
+            Disability:
+            <input type="radio" name="disability" value="No" />No
+            <input type="radio" name="disability" value="Yes" />Yes
+            (specify the Disability*)
+             <br/>
+            Name of Disability:
+            <input type="text" name="nameof disability" placeholder="Disability"/>
+            <br/>
+            <br/>
+
+            Language known:
+            <input type="checkbox" name="Languageknown" value="Hindi" />Hindi 
+            <input type="checkbox" name="Languageknown" value="English" /> English 
+            <input type="checkbox" name="Languageknown" value="Urdu" />Urdu
+            <input type="checkbox" name="Languageknown" value="Punjabi" />Punjabi 
+            <input type="checkbox" name="Languageknown" value="odia" /> odia 
+            <input type="checkbox" name="Languageknown" value="Others" />Other
+            <br/>
+            (specify the other *)
+             <br/>
+            Others:
+            <input type="text" name="Otherlanguageknown" placeholder="write your branch name"/>
+            <br/>
+            <br/>
+            Upload your passport size Photo:
+            <input type="file" name="photo"required=""/>
+            <div class="box">
+            <input type="submit" width="20px" height="20px" value="save" /> 
+            <input type="reset" value="Reset" />
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
